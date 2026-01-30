@@ -1,0 +1,29 @@
+##############################################
+### ВСЯ ЭТА СБОРКА - БУКВАЛЬНО OPEN SOURCE ###
+##############################################
+
+Вот ссылки на оригинальные GitHub репозитории всего, из чего собрана данная сборка:
+GitHub Zapret - https://github.com/bol-van/zapret
+GitHub Zapret Win Bundle - https://github.com/bol-van/zapret-win-bundle
+GitHub WinDivert - https://github.com/basil00/WinDivert
+GitHub Zapret Autorunner - https://github.com/Priler/bat_autorunner
+GitHub Zapret Preconfigs Tester - https://github.com/Priler/zapret_preconfigs_tester
+GitHub Zapret Domains Selector - https://github.com/Priler/zapret_domains_selector
+GitHub Zapret Discord - https://github.com/Flowseal/zapret-discord-youtube
+GitHub Discordfix Autoupdate - https://github.com/Priler/discordfix_autoupdate
+IPSets-For-Bypass-in-Russia - https://github.com/V3nilla/IPSets-For-Bypass-in-Russia/tree/main
+Howdyho Discord-Fix - https://howdyho.net/windows-software/discord-fix-snova-rabotayushij-diskord-vojs-zvonki
+Autorunner bat - https://github.com/Priler/bat_autorunner
+
+##################################################
+### ТУТ ЕСТЬ ВИРУС? ПОЧЕМУ АНТИВИРУС РУГАЕТСЯ? ###
+##################################################
+Конкретно в данной сборке вирусов нет, и майнеров тоже.
+А вот объяснения разработчика Zapret по поводу этих "детекций" - https://github.com/bol-van/zapret/issues/393
+
+Если вкратце, это НЕ вирус.
+Некоторые антивирусы ругаются, так как драйвер WinDivert манипулирует пакетами.
+Без этого никак, тк в этом и заключается смысл данного фикса - он искажает сетевые DPI пакеты.
+
+Еще антивирусы могут ругаться на файл "Установить как службу в АВТОЗАПУСК.exe".
+Однако эта утилита также чистая и является Open Source проектом (См.Autorunner bat)
